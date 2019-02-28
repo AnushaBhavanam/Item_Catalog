@@ -62,3 +62,24 @@ To get the Google login working there are a few additional steps:
 12. Rename JSON file to client_secrets.json
 13. Place JSON file in book-store directory that you cloned from here
 14. Run application using `python /product_store/main.py`
+
+## JSON Endpoints
+The following are open to the public:
+
+Products Catalog JSON: `/productStore/JSON`
+    - Displays the whole products models catalog. product Categories and all models.
+
+Product Categories JSON: `/productStore/productCategories/JSON`
+    - Displays all Product categories
+All Product Editions: `/productStore/editions/JSON`
+	- Displays all Product Models
+
+Product Edition JSON: `/productStore/<path:product_name>/editions/JSON`
+    - Displays Product models for a specific Product category
+
+Product Category Edition JSON: `/productStore/<path:product_name>/<path:edition_name>/JSON`
+    - Displays a specific Product category Model.
+
+## Miscellaneous
+
+This project is inspiration from [gmawji](https://github.com/gmawji/item-catalog).
