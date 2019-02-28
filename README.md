@@ -17,3 +17,6 @@ The Flask application uses stored HTML templates in the tempaltes folder to buil
 5. Flask Framework
 6.DataBaseModels
 
+## Installation
+There are some dependancies and a few instructions on how to run the application.
+Seperate instructions are provided to get GConnect working also.
