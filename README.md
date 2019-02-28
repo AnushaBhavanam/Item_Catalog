@@ -25,3 +25,22 @@ Seperate instructions are provided to get GConnect working also.
 - [Vagrant](https://www.vagrantup.com/)
 - [Udacity Vagrantfile](https://github.com/udacity/fullstack-nanodegree-vm)
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+
+## How to Install
+1. Install Vagrant & VirtualBox
+2. Clone the Udacity Vagrantfile
+3. Go to Vagrant directory and either clone this repo or download and place zip here
+3. Launch the Vagrant VM (`vagrant up`)
+4. Log into Vagrant VM (`vagrant ssh`)
+5. Navigate to `cd /vagrant` as instructed in terminal
+6. The app imports requests which is not on this vm. Run pip install requests
+
+Or you can simply Install the dependency libraries (Flask, sqlalchemy, requests,psycopg2 and oauth2client) by running 
+`pip install -r requirements.txt`
+
+7. Setup application database `python /product-store/Data_Setup.py`
+8. *Insert sample data `python /product-store/database_init.py`
+9. Run application using `python /product-store/main.py`
+10. Access the application locally using http://localhost:8000
+
+*Optional step(s)
