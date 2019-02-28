@@ -20,3 +20,8 @@ The Flask application uses stored HTML templates in the tempaltes folder to buil
 ## Installation
 There are some dependancies and a few instructions on how to run the application.
 Seperate instructions are provided to get GConnect working also.
+
+## Dependencies
+- [Vagrant](https://www.vagrantup.com/)
+- [Udacity Vagrantfile](https://github.com/udacity/fullstack-nanodegree-vm)
+- [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
